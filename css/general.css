@@ -1,0 +1,71 @@
+*{
+    font-family: 'meiryo ui', Arial, monospace;
+}
+#company_name {
+    background-color:green;
+    height: 300px;
+    color: blue;
+    font-size: 45px;
+    font-weight:normal;
+    font-style: normal;
+    text-transform : capitalize;
+    text-decoration:none;
+    text-align: center ;
+    text-shadow: 1px 2px 0px yellow;
+    letter-spacing: 5px;
+
+
+    background-image: url("../Tokyo-skyline.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 100px 0px;
+    background-attachment: scroll;
+    background-size: center;  
+    background:url("../Tokyo-skyline.jpg") repeat 0px 0px ;  
+    }
+
+.menu_link{
+    margin: 100px;
+    height: 40px;
+    text-decoration:none;
+    padding:10px;
+}
+
+.menu_link:hover{
+    background-color: blue;
+}
+
+div h2{
+    background-color: brown;
+    color: white;
+}
+div,#company_name{
+    background-color:#FCF6AC;
+}
+
+#homepage_paragraph{
+    text-indent: 50px;
+    word-spacing: 10px ;
+    
+}
+/*Please check this design.*/
+#homepage_list{
+    /*list-style-type:lower-roman;*/
+    /*list-style-position: inside;*/
+    list-style: url("../green-button-thumb.png") lower-roman inside;
+}
+
+#container {
+    width :100%;
+    margin: 0 auto;
+    background-color: #FCF6AC;
+    height: 100% + 350px
+}
+table{
+    empty-cells: hide;
+     border-collapse: collapse; 
+    border-spacing: 10 px 5 px;
+}
+
+#firstname:focus{
+    background-color: yellow;
+}
