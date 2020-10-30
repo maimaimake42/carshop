@@ -31,11 +31,11 @@
 }
 
 .menu_link:hover{
-    background-color: blue;
+    background-color: pink;
 }
 
 div h2{
-    background-color: brown;
+    background-color: yellow;
     color: white;
 }
 div,#company_name{
@@ -68,4 +68,8 @@ table{
 
 #firstname:focus{
     background-color: yellow;
+}
+
+#products_table{
+   margin: auto;
 }
